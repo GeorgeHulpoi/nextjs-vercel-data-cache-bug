@@ -14,6 +14,14 @@ const nextConfig = {
 						key: 'Cache-Control',
 						value: 'no-store',
 					},
+					{
+						key: 'CDN-Cache-Control',
+						value: 'no-store',
+					},
+					{
+						key: 'Vercel-CDN-Cache-Control',
+						value: 'no-store',
+					}
 				],
 			},
 		];
