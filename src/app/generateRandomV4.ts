@@ -7,7 +7,7 @@ export async function generateRandomV4() {
         res = await fetch(url, {
             cache: 'force-cache',
             next: {
-                tags: ['v4/a']
+                tags: ['v4']
             }
         });
     } catch (err) {
